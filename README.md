@@ -26,20 +26,20 @@ There are some example programs in examples folder written in Pascal in order to
 
 ### How It Works
 The interpreter is divided into several parts
-![Main](images/main.png)
+![Main](images/main.PNG)
 # Lexer
 The lexer analyzes the input and generates list of tokens. If a word isnt recognized it throws LexerException
-![Lexer](images/lexer.png)
+![Lexer](images/lexer.PNG)
 # Parser
 The parser gets the lists of tokens and tries to generate Syntax Tree based on the grammar.
-![Parser](images/parser.png)
+![Parser](images/parser.PNG)
 If the grammar rule is not recognized it throws Parser Exception.
 # Semanthic analyzer
 The semanthic analyzer gets the syntax tree and generates scoped tables with variables, constants, types, procedures and functions declared in the scopes. It throws exceptions if there is duplicate names etc...
-![Analyzer](images/analyzer.png)
+![Analyzer](images/analyzer.PNG)
 # Interpreter
 The interpreter gets all the data from the previous systems and tries to interpret the syntax tree with java methods and functions.
-![Interpreter](images/interpreter.png)
+![Interpreter](images/interpreter.PNG)
 
 
 ### How to
